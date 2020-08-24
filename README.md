@@ -1,5 +1,5 @@
 # iai_donbot_ws
-
+Follow these steps:
 ```
 source /opt/ros/melodic/setup.bash          # start using ROS melodic
 mkdir -p ~/iai_donbot_ws/src                # create directory for workspace
@@ -12,3 +12,6 @@ cd ..                                       # go to workspace directory
 catkin_make                                 # build packages
 source ~/iai_donbot_ws/devel/setup.bash     # source new overlay
 ```
+## Prerequisites:
+Ubuntu 18.04  
+Unreal Engine 4.22.3
