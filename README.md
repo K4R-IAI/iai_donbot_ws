@@ -5,7 +5,7 @@ source /opt/ros/melodic/setup.bash          # start using ROS melodic
 mkdir -p ~/iai_donbot_ws/src                # create directory for workspace
 cd ~/iai_donbot_ws/src                      # go to workspace directory
 wstool init                                 # init rosinstall
-wstool merge https://raw.githubusercontent.com/K4R-IAI/iai_donbot_ws/master/iai_donbot.rosinstall?token=APKWKRDBHGHEFP6LPUZQW5K7JYNI2
+wstool merge https://raw.githubusercontent.com/K4R-IAI/iai_donbot_ws/master/iai_donbot.rosinstall?token=APKWKRHXL365XYHFB5XBJM27JYNVW
                                             # update rosinstall file
 wstool update                               # pull source repositories
 cd ..                                       # go to workspace directory
