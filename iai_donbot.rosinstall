@@ -2,6 +2,11 @@
     local-name: iai_donbot_unreal
     uri: git@github.com:K4R-IAI/iai_donbot_unreal.git
     version: master
+    
+- git: 
+    local-name: cram
+    uri: git@github.com:K4R-IAI/cram.git
+    version: donbot-melodic
 
 - git:
     local-name: iai_maps
