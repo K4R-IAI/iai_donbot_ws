@@ -7,6 +7,11 @@
     local-name: cram
     uri: git@github.com:K4R-IAI/cram.git
     version: donbot-melodic
+    
+- git: 
+    local-name: iai_common_msgs
+    uri: git@github.com:code-iai/iai_common_msgs.git
+    version: master
 
 - git:
     local-name: iai_maps
