@@ -20,7 +20,7 @@
     version: 3.2.1
 - git:
     local-name: iai_common_msgs
-    uri: git@github.com:code-iai/iai_common_msgs.git
+    uri: https://github.com/code-iai/iai_common_msgs.git
     version: master
 - git:
     local-name: iai_donbot_unreal
@@ -34,6 +34,14 @@
     local-name: iai_robots
     uri: git@github.com:code-iai/iai_robots.git
     version: master
+- git:
+    local-name: knowrob
+    uri: https://github.com/knowrob/knowrob.git
+    version: master
+- git:
+    local-name: knowrob_k4r
+    uri: git@github.com:K4R-IAI/knowrob_k4r.git
+    version: main
 - git:
     local-name: omni_pose_follower
     uri: git@github.com:code-iai/omni_pose_follower.git
@@ -51,14 +59,10 @@
     uri: git@github.com:ros/roslisp_common.git
     version: master
 - git:
-    local-name: slipping_control
-    uri: git@github.com:K4R-IAI/slipping_control.git
+    local-name: rosprolog
+    uri: https://github.com/knowrob/rosprolog.git
     version: master
 - git:
-    local-name: unreal_vision_bridge
-    uri: git@github.com:K4R-IAI/unreal_vision_bridge.git
-    version: Donbot
-- git:
-    local-name: base_controller
-    uri: git@github.com:HoangGiang93/base_controller.git
+    local-name: slipping_control
+    uri: git@github.com:K4R-IAI/slipping_control.git
     version: master
