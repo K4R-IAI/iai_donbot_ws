@@ -79,3 +79,7 @@
     local-name: unreal_ros_pkgs
     uri: git@github.com:K4R-IAI/unreal_ros_pkgs.git
     version: master
+- git:
+    local-name: k4r_common_srvs
+    uri: git@github.com:K4R-IAI/k4r_common_srvs.git
+    version: master
