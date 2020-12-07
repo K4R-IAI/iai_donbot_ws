@@ -9,6 +9,7 @@ wstool merge https://raw.githubusercontent.com/K4R-IAI/iai_donbot_ws/master/iai_
                                             # update rosinstall file
 wstool update                               # pull source repositories
 cd ..                                       # go to workspace directory
+rosdep install --from-paths src --ignore-src -r -y    # install missing packages
 catkin_make                                 # build packages
 source ~/iai_donbot_ws/devel/setup.bash     # source new overlay
 ```
