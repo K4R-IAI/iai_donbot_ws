@@ -44,8 +44,8 @@
     uri: git@github.com:K4R-IAI/knowrob_k4r.git
     version: main
 - git:
-    local-name: omni_pose_follower
-    uri: git@github.com:code-iai/omni_pose_follower.git
+    local-name: base_controller
+    uri: git@github.com:K4R-IAI/base_controller.git
     version: master
 - git:
     local-name: robosherlock_msgs
